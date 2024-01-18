@@ -8,7 +8,7 @@ let palpite = 0;
 while (palpite !== numeroSecreto) {
   palpite = parseInt(prompt("Adivinhe o número secreto (entre 1 e 100):"));
   tentativas++;
-
+// if = se Então se palpite for igual a numero secreto, mostrar resultado.
   if (palpite < numeroSecreto) {
     alert("Seu palpite é muito baixo. Tente novamente.");
   } else if (palpite > numeroSecreto) {
